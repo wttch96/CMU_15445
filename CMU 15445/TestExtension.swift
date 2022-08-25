@@ -27,3 +27,11 @@ func assertNotThrow(_ test: () throws -> ()) {
         assert(false)
     }
 }
+
+func assertNotThrowAndReturn<T>(_ test: () throws -> T) -> T {
+    do {
+        return try test()
+    } catch {
+        assert(false)
+    }
+}
