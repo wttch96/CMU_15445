@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4959E50A28B4CBCE0031BEA9 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959E50928B4CBCE0031BEA9 /* ArrayExtension.swift */; };
+		497F195128B381DC00C74584 /* p0_starterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F195028B381DC00C74584 /* p0_starterTests.swift */; };
+		497F195528B3956600C74584 /* errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F195428B3956600C74584 /* errors.swift */; };
+		497F195728B395C600C74584 /* TestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F195628B395C600C74584 /* TestExtension.swift */; };
 		49CDA1E928AF3AA10007A497 /* CMU_15445.docc in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA1E828AF3AA10007A497 /* CMU_15445.docc */; };
 		49CDA1EF28AF3AA10007A497 /* CMU_15445.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CDA1E428AF3AA10007A497 /* CMU_15445.framework */; };
 		49CDA1F428AF3AA10007A497 /* CMU_15445Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA1F328AF3AA10007A497 /* CMU_15445Tests.swift */; };
 		49CDA1F528AF3AA10007A497 /* CMU_15445.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CDA1E728AF3AA10007A497 /* CMU_15445.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49CDA20028AFA3470007A497 /* p0_starter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA1FF28AFA3470007A497 /* p0_starter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4959E50928B4CBCE0031BEA9 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		497F195028B381DC00C74584 /* p0_starterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p0_starterTests.swift; sourceTree = "<group>"; };
+		497F195428B3956600C74584 /* errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errors.swift; sourceTree = "<group>"; };
+		497F195628B395C600C74584 /* TestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtension.swift; sourceTree = "<group>"; };
 		49CDA1E428AF3AA10007A497 /* CMU_15445.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMU_15445.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CDA1E728AF3AA10007A497 /* CMU_15445.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMU_15445.h; sourceTree = "<group>"; };
 		49CDA1E828AF3AA10007A497 /* CMU_15445.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CMU_15445.docc; sourceTree = "<group>"; };
 		49CDA1EE28AF3AA10007A497 /* CMU 15445Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CMU 15445Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CDA1F328AF3AA10007A497 /* CMU_15445Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMU_15445Tests.swift; sourceTree = "<group>"; };
+		49CDA1FF28AFA3470007A497 /* p0_starter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p0_starter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +81,12 @@
 		49CDA1E628AF3AA10007A497 /* CMU 15445 */ = {
 			isa = PBXGroup;
 			children = (
+				49CDA1FE28AFA3040007A497 /* p0 */,
 				49CDA1E728AF3AA10007A497 /* CMU_15445.h */,
 				49CDA1E828AF3AA10007A497 /* CMU_15445.docc */,
+				497F195428B3956600C74584 /* errors.swift */,
+				497F195628B395C600C74584 /* TestExtension.swift */,
+				4959E50928B4CBCE0031BEA9 /* ArrayExtension.swift */,
 			);
 			path = "CMU 15445";
 			sourceTree = "<group>";
@@ -81,8 +95,17 @@
 			isa = PBXGroup;
 			children = (
 				49CDA1F328AF3AA10007A497 /* CMU_15445Tests.swift */,
+				497F195028B381DC00C74584 /* p0_starterTests.swift */,
 			);
 			path = "CMU 15445Tests";
+			sourceTree = "<group>";
+		};
+		49CDA1FE28AFA3040007A497 /* p0 */ = {
+			isa = PBXGroup;
+			children = (
+				49CDA1FF28AFA3470007A497 /* p0_starter.swift */,
+			);
+			path = p0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4959E50A28B4CBCE0031BEA9 /* ArrayExtension.swift in Sources */,
 				49CDA1E928AF3AA10007A497 /* CMU_15445.docc in Sources */,
+				49CDA20028AFA3470007A497 /* p0_starter.swift in Sources */,
+				497F195528B3956600C74584 /* errors.swift in Sources */,
+				497F195728B395C600C74584 /* TestExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CDA1F428AF3AA10007A497 /* CMU_15445Tests.swift in Sources */,
+				497F195128B381DC00C74584 /* p0_starterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +423,7 @@
 		49CDA1FC28AF3AA10007A497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYB5299FCX;
@@ -410,6 +439,7 @@
 		49CDA1FD28AF3AA10007A497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYB5299FCX;
