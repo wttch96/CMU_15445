@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4959E50A28B4CBCE0031BEA9 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959E50928B4CBCE0031BEA9 /* ArrayExtension.swift */; };
+		496E877D28BCBFC9003A6FE3 /* Replacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E877C28BCBFC9003A6FE3 /* Replacer.swift */; };
+		496E877F28BCC722003A6FE3 /* LRUReplacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E877E28BCC722003A6FE3 /* LRUReplacer.swift */; };
+		496E878128BCCD12003A6FE3 /* p1_replacerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E878028BCCD12003A6FE3 /* p1_replacerTests.swift */; };
 		497F195128B381DC00C74584 /* p0_starterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F195028B381DC00C74584 /* p0_starterTests.swift */; };
 		497F195528B3956600C74584 /* errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F195428B3956600C74584 /* errors.swift */; };
 		497F195728B395C600C74584 /* TestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F195628B395C600C74584 /* TestExtension.swift */; };
@@ -30,6 +33,9 @@
 
 /* Begin PBXFileReference section */
 		4959E50928B4CBCE0031BEA9 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		496E877C28BCBFC9003A6FE3 /* Replacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Replacer.swift; sourceTree = "<group>"; };
+		496E877E28BCC722003A6FE3 /* LRUReplacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUReplacer.swift; sourceTree = "<group>"; };
+		496E878028BCCD12003A6FE3 /* p1_replacerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p1_replacerTests.swift; sourceTree = "<group>"; };
 		497F195028B381DC00C74584 /* p0_starterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p0_starterTests.swift; sourceTree = "<group>"; };
 		497F195428B3956600C74584 /* errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errors.swift; sourceTree = "<group>"; };
 		497F195628B395C600C74584 /* TestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtension.swift; sourceTree = "<group>"; };
@@ -60,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		496E877B28BCBFAE003A6FE3 /* p1 */ = {
+			isa = PBXGroup;
+			children = (
+				496E877C28BCBFC9003A6FE3 /* Replacer.swift */,
+				496E877E28BCC722003A6FE3 /* LRUReplacer.swift */,
+			);
+			path = p1;
+			sourceTree = "<group>";
+		};
 		49CDA1DA28AF3AA10007A497 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				49CDA1FE28AFA3040007A497 /* p0 */,
+				496E877B28BCBFAE003A6FE3 /* p1 */,
 				49CDA1E728AF3AA10007A497 /* CMU_15445.h */,
 				49CDA1E828AF3AA10007A497 /* CMU_15445.docc */,
 				497F195428B3956600C74584 /* errors.swift */,
@@ -96,6 +112,7 @@
 			children = (
 				49CDA1F328AF3AA10007A497 /* CMU_15445Tests.swift */,
 				497F195028B381DC00C74584 /* p0_starterTests.swift */,
+				496E878028BCCD12003A6FE3 /* p1_replacerTests.swift */,
 			);
 			path = "CMU 15445Tests";
 			sourceTree = "<group>";
@@ -219,9 +236,11 @@
 			files = (
 				4959E50A28B4CBCE0031BEA9 /* ArrayExtension.swift in Sources */,
 				49CDA1E928AF3AA10007A497 /* CMU_15445.docc in Sources */,
+				496E877F28BCC722003A6FE3 /* LRUReplacer.swift in Sources */,
 				49CDA20028AFA3470007A497 /* p0_starter.swift in Sources */,
 				497F195528B3956600C74584 /* errors.swift in Sources */,
 				497F195728B395C600C74584 /* TestExtension.swift in Sources */,
+				496E877D28BCBFC9003A6FE3 /* Replacer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496E878128BCCD12003A6FE3 /* p1_replacerTests.swift in Sources */,
 				49CDA1F428AF3AA10007A497 /* CMU_15445Tests.swift in Sources */,
 				497F195128B381DC00C74584 /* p0_starterTests.swift in Sources */,
 			);
